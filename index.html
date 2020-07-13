@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<title>Survey Bananas 🍕</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="container">
+		<h1>Just a friendly Survey</h1>
+		<h4>Can you tell us more about yourself?</h4><hr>
+
+	<form>
+		<strong>Your Name:</strong>
+		<input class="webtext" placeholder="Enter your name" type="text" name="yourname" required>
+
+		<strong>Nickname (if any):</strong>
+		<input class="webtext" placeholder="What should I call you?" type="text" name="nickname">
+
+		<strong>Zodiac Sign: </strong>
+		<input class="webtext" placeholder="Your zodiac sign :)" type="text" name="zodiac">
+
+		<p><strong>Birthday: </strong>
+		<input type="date" name="birthday"></p>
+
+		<strong>Gender:</strong><br>
+		<input type="radio" name="Gender" value="Male">Male<br>
+		<input type="radio" name="Gender" value="Female">Female<br>
+		<input type="radio" name="Gender" value="Other">Other<br><br>
+
+		<strong>Pets: </strong><br>
+			<input type="checkbox" name="cat"> Cats<br>
+			<input type="checkbox" name="dog"> Dogs<br>
+			<input type="checkbox" name="birds"> Birds<br>
+			<input type="checkbox" name="hamster"> Hamster<br>
+			<input type="checkbox" name="fish"> Fishes<br>
+			<input type="checkbox" name="none"> None<br>
+			Other: <input type="text" name="otherpets"><br><br>
+
+		<strong>What are some of your hobbies?</strong>
+		<textarea id="hobby" rows="4" cols="40">What you do at your leisure</textarea>
+
+		<p><strong>What state do you reside in? </strong>
+			<input class="webtext" placeholder="Your state of residence" type="text" name="location">
+		</p>
+
+		<strong>What is the highest level of education you have?</strong> <br>
+			<input type="radio" name="Education" value="primary">Primary<br>
+			<input type="radio" name="Education" value="secondary">Secondary <br>
+			<input type="radio" name="Education" value="undergraduate">Undergratuate<br>
+			<input type="radio" name="Education" value="graduate">Graduate<br>
+			<input type="radio" name="Education" value="masters">Masters<br>
+			<input type="radio" name="Education" value="phd">PhD<br>
+			<input type="radio" name="Education" value="transcends human">Transcendence (above-human level)<br><br>
+
+		<strong>Favorite meal: </strong><br>
+			<input type="radio" name="fav meal" value="Rice"> Rice<br>
+			<input type="radio" name="fav meal" value="Beans"> Beans<br>
+			<input type="radio" name="fav meal" value="Swallow"> Swallow<br>
+			<input type="radio" name="fav meal" value="Junk food"> Junk food<br>
+			<input type="radio" name="fav meal" value="Can't say"> Can't say<br>
+		    Other/Mixed: <input type="text" name="other food"><br><br>
+
+		<strong>Do you think we can be friends? ^_^</strong><br>
+			<input type="radio" name="friend request" value="Yes">Yeah, sure<br>
+			<input type="radio" name="friend request" value="Nope">Nah. Sorry<br>
+			<input type="radio" name="friend request" value="Maybe">Maybe. <br>
+			<input type="radio" name="friend request" value="I'll get back to you">I'll get back to you.<br>
+			Incase of the last option, here's my contact (hehe): samskyamox@outlook.com <br><br>
+
+		<strong>Drop your contact info if you wanna continue this chat or not...</strong>
+		<ul>
+			<li>WhatsApp: <input class="contact" type="text" name="WhatsApp" maxlength="11" required></li>
+			<li>Instagram: <input class="contact" type="text" name="Instagram"></li>
+			<li>Twitter: <input class="contact" type="text" name="Twitter"></li>
+		</ul>
+
+		<strong>One last question before you go. Do you watch ANIME? </strong><br>
+			<input type="radio" name="anime" value="Yes" required>Yeah. Definitely<br>
+			<input type="radio" name="anime" value="Nope" required>Nah. Too childish<br>			
+
+		<input class="button" type="submit" value="Submit"><br>
+		<input class="btn" type="reset">
+	</form>
+		
+	</div>
+
+</body>
+</html>
